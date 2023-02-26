@@ -1,0 +1,166 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+}
+
+body{
+    background-color:#FFFBE9;
+}
+
+/* HEADER */
+#top-header{ 
+    background-color:#F5F0E8;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.linkport{
+    margin-left: 1rem;
+}
+
+#brand{
+    width:10rem;
+    align-items: center;
+}
+
+.buttonport{
+    margin-right: 1rem;
+}
+
+.buttonport ul li button{
+    padding-right: 2rem;
+    font-size:20px;
+    color: #3D322C;
+}
+
+/* CATEGORIES */
+#category{
+    background-color: #AD8B73;
+    font-weight: bold;
+}
+
+/* PROMOBANNER */
+#promo-banner{
+    background-color:#E3CAA5;
+}
+
+#promo-banner span{
+    font-weight: bold;
+}
+
+/* CATALOG */
+#home-catalog .carousel-inner{
+    height: 830px;
+}
+
+
+/* BESTSELLER SECTION*/
+#bestseller{
+    background-color:white;
+    padding: 5%;
+}
+
+#bestseller .best-copy{
+    padding-bottom: 5rem;
+}
+
+#bestseller .best-head{
+    font-size:36px;
+    font-weight: bold;
+}
+
+#bestseller .best-products{
+    padding:3rem;
+}
+
+/* FOR HIM SECTION */
+
+#for-him{
+    background-color:#8E806A;
+    padding: 5%;
+}
+
+#for-him .him-feature{
+    margin-left: 30px;
+    margin-top: 60px;
+}
+
+/* FOR HER SECTION */
+#for-her{
+    padding: 5%;
+}
+
+#for-her .her-feature{
+    margin-top: 60px;
+}
+
+#for-her .forher-content{
+    margin-left: 30px;
+}
+
+/* REVIEW SECTION */
+#review{
+    background-color:white;
+    padding: 10%;
+}
+
+/* FOOTER */
+#footer{
+    background-color: #C3B091;
+    padding:2rem;
+}
+
+#footer h3{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#footer form{
+    margin-top:20px;
+    margin-bottom: 12px;
+}
+
+#footer form input{
+    margin-bottom:10px;
+}
+#footer p{
+    font-size:12px;
+    margin-top: 12px;
+    font-style:italic;
+}
+
+#footer .aboutlinks li{
+    padding: 5px;
+}
+
+#footer div .sociallinks ul li a{
+    padding-left:1rem;
+    font-size: 30px;
+    color: #3D322C;
+}
+
+/* COPYRIGHT */
+
+#copyright{
+    background-color: #AD8B73;
+    padding-top: 16px;
+}
+
+/* SHOP PAGE */
+
+.items{
+    padding: 0 10% 5%;
+}
+
+.items .col{
+    padding: 2rem;
+}
+
+.pagination{
+    padding-bottom: 4rem;
+}
