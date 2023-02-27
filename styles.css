@@ -179,6 +179,14 @@ body{
 }
 
 /* SHOP PAGE */
+#shop-banner video{
+    width: 100vw;
+}
+
+#product-nav{
+    background-color:#AD8B73;
+    padding: 0;
+}
 
 .items{
     padding: 0 10% 5%;
@@ -203,5 +211,3 @@ body{
     text-decoration:underline;
     padding: 1rem 1rem 1rem 0;
 }
-
-@media (max-width:900px)
