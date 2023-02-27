@@ -54,8 +54,9 @@ body{
 }
 
 /* CATALOG */
-#home-catalog .carousel-inner{
-    height: 830px;
+#home-catalog .carousel-inner img{
+    height:auto;
+    width: 100vw;
 }
 
 
@@ -75,7 +76,7 @@ body{
 }
 
 #bestseller .best-products{
-    padding:3rem;
+    padding:0 3rem;
 }
 
 /* FOR HIM SECTION */
@@ -85,9 +86,18 @@ body{
     padding: 5%;
 }
 
+#forhim-content{
+    padding-top: 10%;
+}
+
+#forhim-content h5{
+    font-weight: bold;
+    font-size: 25px;
+}
+
 #for-him .him-feature{
     margin-left: 30px;
-    margin-top: 60px;
+    margin-top: 90px;
 }
 
 /* FOR HER SECTION */
@@ -95,18 +105,35 @@ body{
     padding: 5%;
 }
 
-#for-her .her-feature{
-    margin-top: 60px;
+#forher-content{
+    padding-top: 10%;
 }
 
-#for-her .forher-content{
+#forher-content h5{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#for-her .her-feature{
     margin-left: 30px;
+    margin-top: 90px;
+}
+
+/* FEATURE BANNER */
+#feature-banner video{
+    width: 100vw;
 }
 
 /* REVIEW SECTION */
 #review{
     background-color:white;
-    padding: 10%;
+    padding: 7%;
+}
+
+#review h5{
+    margin-bottom: 2rem;
+    font-size:36px;
+    font-weight: bold;
 }
 
 /* FOOTER */
@@ -164,3 +191,17 @@ body{
 .pagination{
     padding-bottom: 4rem;
 }
+
+/* TERMS AND CONDITIONS PAGE */
+
+#termsp{
+    padding: 5% 15%;
+}
+
+#termsp h6{
+    font-weight: bold;
+    text-decoration:underline;
+    padding: 1rem 1rem 1rem 0;
+}
+
+@media (max-width:900px)
