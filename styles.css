@@ -200,6 +200,16 @@ body{
     padding-bottom: 4rem;
 }
 
+/* ACCOUNT PAGE */
+#login{
+    padding: 5%;
+}
+
+#login h5{
+    font-weight: bold;
+    font-size: 36px;
+    margin-bottom: 2rem;
+}
 /* TERMS AND CONDITIONS PAGE */
 
 #termsp{
