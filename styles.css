@@ -54,10 +54,10 @@ body{
 }
 
 /* CATALOG */
+
 #home-catalog .carousel-inner img{
-    height:850px;
+    object-fit:cover;
     width: 100%;
-    object-fit: cover;
 }
 
 #home-catalog .carousel-inner a{
@@ -92,12 +92,17 @@ body{
 }
 
 #forhim-content{
-    padding-top: 10%;
+    padding-top: 25%;
 }
 
 #forhim-content h5{
     font-weight: bold;
     font-size: 25px;
+    color:white;
+}
+
+#forhim-content p{
+    color:white;
 }
 
 #for-him .him-feature{
@@ -105,13 +110,19 @@ body{
     margin-top: 90px;
 }
 
+#feature-banner img{
+    object-fit:cover;
+    width: 100%;
+}
+
 /* FOR HER SECTION */
 #for-her{
+    background-color: #E3CAA5;
     padding: 5%;
 }
 
 #forher-content{
-    padding-top: 10%;
+    padding-top: 25%;
 }
 
 #forher-content h5{
@@ -139,6 +150,28 @@ body{
     margin-bottom: 2rem;
     font-size:36px;
     font-weight: bold;
+}
+
+#review .col{
+    padding: 1rem;
+}
+#review h6{
+    font-size: 25px;
+}
+
+#review p{
+    font-size: 20px;
+    font-weight:bold;
+    margin-top: 5%;
+}
+
+#review img{
+    width: 100px;
+    margin-left:35%;
+}
+
+#review .rimg2{
+    margin-top:7%;
 }
 
 /* FOOTER */
