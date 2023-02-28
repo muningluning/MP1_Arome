@@ -55,8 +55,13 @@ body{
 
 /* CATALOG */
 #home-catalog .carousel-inner img{
-    height:auto;
-    width: 100vw;
+    height:850px;
+    width: 100%;
+    object-fit: cover;
+}
+
+#home-catalog .carousel-inner a{
+    margin-bottom: 1rem;
 }
 
 
