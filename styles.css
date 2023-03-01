@@ -217,16 +217,14 @@ body{
 }
 
 /* SHOP PAGE */
-#shop-banner video{
-    width: 100vw;
-}
-
 #product-nav{
     background-color:#AD8B73;
+    height:80px;
     padding: 0;
 }
 
 .items{
+    background-color:#F5F0E8;
     padding: 0 10% 5%;
 }
 
@@ -234,6 +232,9 @@ body{
     padding: 2rem;
 }
 
+.ppp{
+    background-color:#F5F0E8;
+}
 .pagination{
     padding-bottom: 4rem;
 }
