@@ -135,11 +135,6 @@ body{
     margin-top: 90px;
 }
 
-/* FEATURE BANNER */
-#feature-banner video{
-    width: 100vw;
-}
-
 /* REVIEW SECTION */
 #review{
     background-color:white;
@@ -217,10 +212,17 @@ body{
 }
 
 /* SHOP PAGE */
+#shop-banner img{
+    width:100vw;
+}
+
 #product-nav{
     background-color:#AD8B73;
     height:80px;
-    padding: 0;
+}
+
+#product-nav .nav-item{
+    padding-left:2rem;
 }
 
 .items{
@@ -234,6 +236,7 @@ body{
 
 .ppp{
     background-color:#F5F0E8;
+    height: 100px;
 }
 .pagination{
     padding-bottom: 4rem;
@@ -262,4 +265,28 @@ body{
     padding: 1rem 1rem 1rem 0;
 }
 
-/* FAQs PAGE */
+/* ABOUT PAGE */
+
+.feature-banner img{
+    width:100vw;
+}
+
+#about-context .henry img{
+    padding:15%;
+}
+
+#about-context .meet-henry {
+    padding:15%;
+}
+
+#about-feature .arome-context{
+    padding: 15%;
+}
+
+#about-feature .arome img{
+    padding: 15%;
+}
+
+#contact{
+    padding: 0 15% 15%;
+}
