@@ -181,18 +181,6 @@ body{
     padding-left: 15%;
 }
 
-#footer .newletter input{
-    width:400px;
-}
-
-#footer .newletter button{
-    width:400px;
-}
-
-#footer .newletter p{
-    width:400px;
-}
-
 #fbrand{
     width:10rem;
 }
@@ -403,14 +391,6 @@ body{
     #footer .newletter{
         padding-top: 5%;
         padding-left: 15%;
-    }
-
-    #footer #newinput{
-        width:500px;
-    }
-    
-    #footer #newbtn{
-        width:500px;
     }
 
     #fbrand{
