@@ -172,7 +172,11 @@ body{
 /* FOOTER */
 #footer{
     background-color: #C3B091;
-    padding:2rem;
+    padding:3%;
+}
+
+#footer .newletter{
+    padding-left: 15%;
 }
 
 #footer h3{
@@ -198,10 +202,18 @@ body{
     padding: 5px;
 }
 
+#footer .aboutlinks li:hover{
+    color:white;
+}
+
 #footer div .sociallinks ul li a{
     padding-left:1rem;
     font-size: 30px;
     color: #3D322C;
+}
+
+#footer div .policies li a:hover{
+    color:white;
 }
 
 /* COPYRIGHT */
@@ -219,6 +231,12 @@ body{
 #product-nav{
     background-color:#AD8B73;
     height:80px;
+}
+
+#product-navnew{
+    background-color:#AD8B73;
+    height:60px;
+    padding-left:2rem;
 }
 
 #product-nav .nav-item{
@@ -266,6 +284,10 @@ body{
 }
 
 /* ABOUT PAGE */
+#contact{
+    background-color:#8E806A;
+    height:600px;
+}
 
 .feature-banner img{
     width:100vw;
@@ -279,8 +301,18 @@ body{
     padding:15%;
 }
 
+#about-context .meet-henry h5{
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
 #about-feature .arome-context{
     padding: 15%;
+}
+
+#about-feature .arome-context h5{
+    font-size: 30px;
+    padding-bottom: 10px;
 }
 
 #about-feature .arome img{
@@ -288,5 +320,26 @@ body{
 }
 
 #contact{
-    padding: 0 15% 15%;
+    padding: 5% 15%;
+}
+
+#contact .row{
+    color:white;
+}
+
+#contact .para{
+    padding-top:5%;
+}
+#contact h5{
+    font-size: 30px;
+    font-weight:bold;
+    padding-bottom: 10px;
+}
+
+#contact form input{
+    margin:10px;
+}
+
+#contact form button{
+    margin:10px;
 }
