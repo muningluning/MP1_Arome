@@ -181,6 +181,22 @@ body{
     padding-left: 15%;
 }
 
+#footer .newletter input{
+    width:400px;
+}
+
+#footer .newletter button{
+    width:400px;
+}
+
+#footer .newletter p{
+    width:400px;
+}
+
+#fbrand{
+    width:10rem;
+}
+
 #footer h3{
     font-size: 20px;
     font-weight: bold;
@@ -208,10 +224,21 @@ body{
     color:white;
 }
 
-#footer div .sociallinks ul li a{
-    padding-left:1rem;
+#footer .sociallinks{
     font-size: 30px;
     color: #3D322C;
+}
+
+#footer .sociallinks #ig{
+    margin-left:30px;
+}
+
+#footer .sociallinks #tw{
+    margin-left:30px;
+}
+
+#footer .sociallinks li a:hover{
+    color: white;
 }
 
 #footer div .policies li a:hover{
@@ -344,4 +371,82 @@ body{
 
 #contact form button{
     margin:10px;
+}
+
+@media (max-width: 900px){
+    #bestseller .best-copy{
+        padding-bottom: 3rem;
+    }
+
+    #forhim-content{
+        padding-top:5%;
+        padding-bottom: 10%;
+    }
+
+    #for-him .him-feature{
+        margin-left: 0px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    #forher-content{
+        padding-top:5%;
+        padding-bottom: 10%;
+    }
+
+    #for-her .her-feature{
+        margin-left: 0px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    #footer .newletter{
+        padding-top: 5%;
+        padding-left: 15%;
+    }
+
+    #footer #newinput{
+        width:500px;
+    }
+    
+    #footer #newbtn{
+        width:500px;
+    }
+
+    #fbrand{
+        width:10rem;
+        margin-left:7rem;
+    }
+
+    #footer #fflinks{
+        margin-left:1rem;
+        padding: 3rem;
+    }
+
+    #footer .aboutlinks li:hover{
+        color:white;
+    }
+
+   #footer .sociallinks a{
+        display: inline-block;
+        position:absolute;
+   }
+
+   #footer .sociallinks #ig{
+        margin-left:60px;
+   }
+
+   #footer .sociallinks #tw{
+    margin-left:120px;
+   }
+
+   #footer .sociallinks li a:hover{
+    color: white;
+    }
+
+    #footer div .policies li a:hover{
+    color:white;
+    }
+
+
 }
