@@ -96,9 +96,10 @@ body{
 }
 
 #forhim-content h5{
-    font-weight: bold;
-    font-size: 25px;
     color:white;
+    font-weight: bold;
+    font-size: 36px;
+    padding-bottom: 10px;
 }
 
 #forhim-content p{
@@ -127,7 +128,8 @@ body{
 
 #forher-content h5{
     font-weight: bold;
-    font-size: 25px;
+    font-size: 36px;
+    padding-bottom: 10px;
 }
 
 #for-her .her-feature{
